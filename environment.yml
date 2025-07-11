@@ -5,4 +5,10 @@ dependencies:
   - python=3.10
   - flake8
   - pytest
-  # Add any other dependencies your project needs
+name: myenv
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - jupyter
+  # Add any other required packages here# Add any other dependencies your project needs
