@@ -1,14 +1,10 @@
-name: base
+name: myenv
 channels:
   - defaults
 dependencies:
-  - python=3.10
-  - flake8
-  - pytest
-name: myenv
-dependencies:
-  - python=3.8
+  - python=3.13
   - numpy
   - pandas
   - jupyter
-  # Add any other required packages here# Add any other dependencies your project needs
+  - flake8
+  - pytest
