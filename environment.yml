@@ -1,0 +1,10 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - python=3.13
+  - numpy
+  - pandas
+  - jupyter
+  - flake8
+  - pytest
